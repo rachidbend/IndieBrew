@@ -174,7 +174,8 @@ body {
 }
 
 .phone-mockup {
-  width: 18rem;
+  /* width: 18rem; */
+  padding: 0 3.3rem;
   margin: 0 auto;
   margin-bottom: 4rem;
 }
