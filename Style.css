@@ -58,9 +58,74 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 3.2rem 1.3rem;
+  padding-bottom: 3.9rem;
 }
 
 .logo {
   width: 9.7rem;
   height: auto;
+}
+
+/* Hero section */
+
+.hero {
+  padding: 0 1.3rem;
+}
+.hero__img {
+  padding: 0 1.2rem;
+  margin-bottom: 2.8rem;
+}
+.hero__main {
+}
+.hero__text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: 'DM Sans', sans-serif;
+  margin-bottom: 1rem;
+}
+
+/* Headings */
+.heading {
+  font-family: 'DM Sans', sans-serif;
+  color: #000;
+  font-weight: 700;
+}
+.heading--primary {
+  font-size: 3.7rem;
+  line-height: 40px;
+  margin-bottom: 1rem;
+}
+.heading--secondary {
+}
+.heading--tertiary {
+}
+
+/* Buttons */
+.btn {
+  font-family: 'DM Sans', sans-serif;
+}
+.btn--primary:link,
+.btn--primary:visited {
+  padding: 1.2rem 1.6rem 1.5rem 1.6rem;
+  background-color: #664efc;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  outline: 1px solid #664efc;
+  outline-offset: -1px;
+  transition: color ease-in-out 200ms;
+  transition: background-color ease-in-out 240ms;
+  margin-bottom: 2.1rem;
+}
+.btn--primary:hover,
+.btn--primary:active {
+  background-color: #fff;
+  color: #664efc;
+}
+
+.btn__title--bold {
+  font-weight: 700;
+}
+.btn--secondary {
 }
